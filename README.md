@@ -1,9 +1,6 @@
 # luci-app-frpc
 
-Luci support for Frps, Inspire by [kuoruan/luci-app-frpc](https://github.com/kuoruan/luci-app-frpc)
-
-[![Release Version](https://img.shields.io/github/release/lwz322/luci-app-frps.svg)](https://github.com/lwz322/luci-app-frps/releases/latest) [![Latest Release Download](https://img.shields.io/github/downloads/lwz322/luci-app-frps.svg)](https://github.com/lwz322/luci-app-frps/releases/latest)
-
+Luci support for Frps, inspire by [kuoruan/luci-app-frpc](https://github.com/kuoruan/luci-app-frpc)
 
 ## Install
 
