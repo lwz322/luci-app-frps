@@ -1,4 +1,4 @@
-# luci-app-frpc
+# luci-app-frps
 
 Luci support for Frps, inspire by [kuoruan/luci-app-frpc](https://github.com/kuoruan/luci-app-frpc)
 
