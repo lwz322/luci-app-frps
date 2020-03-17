@@ -172,6 +172,12 @@ msgstr "子域名"
 msgid "TCP mux"
 msgstr "TCP 复用"
 
+#: luasrc/model/cbi/frps/server.lua:27
+msgid "Enforce frps only accept TLS connection"
+msgstr "强制frps只接受TLS连接"
+msgid "Requirements: frpc v0.25.0+, frps v0.32.0+"
+msgstr "要求：frpc版本0.25.0+, frps版本0.32.0+"
+
 #: luasrc/model/cbi/frps/server.lua:18
 msgid "Token"
 msgstr "令牌"

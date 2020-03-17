@@ -24,6 +24,13 @@ o.disabled = "false"
 o.defalut = o.enabled
 o.rmempty = false
 
+o = s:option(Flag, "tls_only", translate("Enforce frps only accept TLS connection") 
+    translatef("Requirements: frpc v0.25.0+, frps v0.32.0+"))
+o.enabled = "true"
+o.disabled = "false"
+o.default = o.disabled
+o.rmempty = false
+
 o = s:option(Value, "bind_udp_port", translate("UDP bind port"), 
     translatef("Optional: udp port to help make udp hole to penetrate nat"))
 o.datatype = "port"

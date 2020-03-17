@@ -71,6 +71,7 @@ frps_scetion_validate() {
 	    'bind_port:port' \
 		'token:string' \
 		'tcp_mux:or("true", "false"):true' \
+		'tls_only:or("true", "false"):false' \
 		'bind_udp_port:port' \
 		'kcp_bind_port:port' \
 		'vhost_http_port:port' \
@@ -98,7 +99,7 @@ create_config_file() {
 	echo "[common]" > "$tmp_file"
 	
 	append_options "$tmp_file" \
-		"bind_port" "token" "tcp_mux" "bind_udp_port" "kcp_bind_port" "vhost_http_port" "vhost_https_port"
+		"bind_port" "token" "tcp_mux" "tls_only" "bind_udp_port" "kcp_bind_port" "vhost_http_port" "vhost_https_port" 
 
 
 	if [ "x$enable_logging" = "x1" ] ; then
