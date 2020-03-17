@@ -241,5 +241,5 @@ msgstr "虚拟主机https绑定端口"
 #: luasrc/model/cbi/frps/server.lua:50
 msgid "Extra Settings"
 msgstr "额外设置"
-msgid "List of extra settings will be added to config file. Format: option=value, eg. <code>detailed_errors_to_client = false</code>."
-msgstr "额外设置列表将会被添加到config文件中。 格式：option=value，如：<code>detailed_errors_to_client = false</code>."
+msgid "List of extra settings will be added to config file. Format: option=value, eg. <code>detailed_errors_to_client=false</code>.(NO SPACE!)"
+msgstr "额外设置列表将会被添加到config文件中。 格式：option=value，如：<code>detailed_errors_to_client=false</code>.(不含空格!)"
