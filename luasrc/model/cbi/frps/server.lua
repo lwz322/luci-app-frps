@@ -47,4 +47,8 @@ o = s:option(Value, "vhost_https_port", translate("vhost https port"),
     translatef("Optional:  Note: http port and https port can be same with bind_port"))
 o.datatype = "port"
 
+o = s:option(DynamicList, "extra_setting", translate("Extra Settings"),
+	translatef("List of extra settings will be added to config file. Format: option=value, eg. <code>detailed_errors_to_client = false</code>."))
+o.placeholder = "option=value"
+
 return m
