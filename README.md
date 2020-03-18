@@ -1,6 +1,10 @@
 # luci-app-frps
 
-Luci support for Frps, inspire by [kuoruan/luci-app-frpc](https://github.com/kuoruan/luci-app-frpc)
+Luci support for Frps, inspire by [kuoruan/luci-app-frpc](https://github.com/kuoruan/luci-app-frpc). Included in [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede).
+
+- support daemon process via procd
+- support most frps‘setting in LuCi, including TLS-only (frps_v0.34.0+).
+- support other frps‘setting via “extra setting” (Format: option=value)
 
 ## Install
 
